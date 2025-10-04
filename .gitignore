@@ -1,0 +1,37 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+pubspec.lock
+
+# Android
+**/android/.gradle/
+**/android/local.properties
+**/android/key.properties
+**/android/captures/
+**/android/app/*.keystore
+
+# iOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework/
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/App.framework
+**/ios/.generated/
+**/ios/Flutter/ephemeral/
+
+# Web
+lib/generated_plugin_registrant.dart
+
+# VS Code / Android Studio
+.idea/
+*.iml
+
+# Others
+*.log
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
