@@ -1,0 +1,20 @@
+name: theme_layout_nav_lab
+description: "A Flutter lab project demonstrating themes, layouts, and navigation."
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ^3.7.2
+dependencies:
+  flutter:
+    sdk: flutter
+  # iOS-style icons
+  cupertino_icons: ^1.0.8
+  # Add this package for theme preference storage
+  shared_preferences: ^2.2.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Recommended linting rules
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
